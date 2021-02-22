@@ -1,0 +1,128 @@
+body{
+    background-color: #FAFAF0;
+    box-align: center;
+}
+h1 {
+    font-family: "Quicksand";
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 500;
+}
+p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+}
+li {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+}
+b {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+.light-example {
+    font-weight: lighter;
+}
+.container {
+    border: 1px solid #03312E;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+}
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+}
+.color-panel {
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5px;
+    box-align: center;
+}
+.color-label {
+    text-align: center;
+    margin-top: 35px;
+    display: block;
+    padding: 20px;
+}
+.font-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    box-align: center;
+}
+.font-panel {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+}
+.uses-container h1 h2 p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+}
+.uses-panel { 
+    display: inline-block;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+} 
+.font-name {
+    font-size: 24px;
+}
+.color-hex {
+    text-align: center;
+    display: block;
+}
+.pale-pink {
+    background-color: #F0D2D1;
+}
+.cambridge-blue {
+    background-color: #A4C3B2;
+}
+.rich-black {
+    background-color: #03312E;
+    color: white;
+}
+.old-lavender {
+    background-color: #685F74;
+}
+.umber {
+    background-color: #705D56;
+}
+.quicksand p {
+    font-family: "Quicksand";
+    line-height: 1.4;
+}
+.lato p {
+    font-family: "Lato";
+    line-height: 1.4;
+}
+.anonymous-pro p {
+    font-family: "Anonymous Pro";
+    line-height: 1.4;
+}
+.code {
+    background-color: gainsboro;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 14px;
+    font-weight: 400;
+}
+
